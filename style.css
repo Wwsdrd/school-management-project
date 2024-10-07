@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: linear-gradient(to bottom, #ccfbff, #ef96c5);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+nav {
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  font-weight: bold;
+  position: relative;
+  font-size: 25px;
+  color: white;
+  left: 5%;
+  line-height: 70px;
+}
+
+ul {
+  position: relative;
+  float: right;
+  margin-right: 40px;
+}
+
+ul li {
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: aliceblue;
+}
+.main_img {
+  width: 100%;
+  height: 300px;
+}
+.section1 {
+  padding-top: 70px;
+}
+.img_text {
+  position: absolute;
+  top: 15%;
+  left: 37%;
+  color: white;
+  background-color: rgb(97, 99, 98);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 35px;
+  font-style: initial;
+}
+.welcome_img {
+  width: 100%;
+  height: 250px;
+}
+.container {
+  padding-top: 70px;
+}
+.teacher {
+  width: 90%;
+  height: 200px;
+}
+.label_text {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+.input_deg {
+  width: 30%;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid blue;
+}
+.adm_in {
+  padding-top: 10px;
+}
+.admission {
+  margin-top: 20px;
+}
+.input_text {
+  width: 30%;
+  height: 120px;
+  border-radius: 25px;
+  border: 1px solid blue;
+}
+#submit {
+  position: relative;
+  width: 15%;
+  left: 5%;
+}
+footer {
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+
+  height: 70px;
+  width: 100%;
+}
+.footer_text {
+  text-align: center;
+  color: white;
+  top: 20%;
+}
+.adm {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
